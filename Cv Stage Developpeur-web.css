@@ -1,0 +1,75 @@
+
+body{
+	width: 65%;
+	border: 0.5px solid black;
+
+margin-left: auto;
+margin-right: auto;
+}
+h1{
+	color: green;
+	text-align: center;
+
+}
+h2{	
+	padding-bottom: 10px;
+	border-bottom:solid 7px green;
+	width: 70px;
+}
+
+.image{
+background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL8uE3bukGFScwrNuKviAJM7t04VseTZz_yQ&usqp=CAU");
+
+background-repeat: no-repeat;
+border-bottom: black;
+filter:Alpha(opacity=80);-moz-opacity:0.80;opacity: 0.80;
+}
+img{
+	width: 30px;
+}
+.page{
+	display: flex;	
+}
+
+.cotedroit{
+	background-color:lightgrey;
+}
+.rond{
+	margin-left: 10px;
+  background-color: green;
+  border-radius: 50%;
+  width: 9px;
+  height: 9px;
+  margin-top: 5px;
+}
+.rondn{
+	margin-left: 10px;
+  background-color: grey;
+  border-radius: 50%;
+  width: 9px;
+  height: 9px;
+  margin-top: 5px;
+}
+.align{
+	display: flex;
+}
+ li{
+ 	margin-bottom: 5px;
+ 	color: gray;
+ }
+.adresse ul{
+	padding-left: 10px;
+	color: gray;
+}
+.form{
+	padding: 5px;
+	margin-left: 2px;
+	color: gray;
+}
+.form li{
+	padding: 5px;
+	margin-left: 2px;
+}
+p{
+	color: gray;
+}
